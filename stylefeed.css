@@ -1,0 +1,113 @@
+/* Set a default font and background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the logo in the header */
+  header .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Style the main banner */
+  .heading-page {
+    background-image: url('path/to/banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Style the blog post section */
+  .blog-posts {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Style each individual blog post */
+  .blog-post {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the blog post image */
+  .blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Style the blog post title and description */
+  .blog-post .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post .description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Style the sidebar section */
+  .sidebar {
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the links in the footer */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Responsive styles */
+  
+  /* Adjust the layout for smaller screens */
+  @media screen and (max-width: 768px) {
+    .blog-post {
+      width: calc(50% - 20px);
+    }
+  
+    .sidebar {
+      width: 100%;
+    }
+  }
+  
+  /* Adjust the layout for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .blog-post {
+      width: 100%;
+    }
+  }
